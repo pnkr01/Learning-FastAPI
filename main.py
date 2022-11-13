@@ -34,7 +34,7 @@ def limitBlog(limit=15, published: bool = True):
 class Blog(BaseModel):
     title: str
     body: str
-    published: Optional[false]
+    #published: False
 
 
 @app.post('/blog')
